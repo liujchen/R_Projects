@@ -19,4 +19,5 @@ for (city_name in city_list) {
    temperature = current_temperature))
 }
 
-kable(weather_data)
+x <- kable(weather_data)
+cat(x, sep = "\n")
